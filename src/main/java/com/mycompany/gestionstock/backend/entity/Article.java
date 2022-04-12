@@ -20,4 +20,6 @@ public class Article extends AbstractEntity {
     @JoinColumn(name = "family_id")
     private Family family;
 
+
+
 }

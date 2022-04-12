@@ -25,4 +25,6 @@ public class AbstractEntity {
     @Column(name = "lastModifiedDate", nullable = false)
     @JsonIgnore
     private Instant lastModifiedDate;
+
+
 }

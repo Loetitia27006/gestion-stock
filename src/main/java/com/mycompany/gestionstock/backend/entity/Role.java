@@ -1,2 +1,5 @@
-package com.mycompany.gestionstock.backend.entity;public class Role {
+package com.mycompany.gestionstock.backend.entity;
+
+public class Role extends AbstractEntity{
+    private String nom;
 }
